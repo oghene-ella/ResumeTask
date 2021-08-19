@@ -12,13 +12,16 @@ html, body{
     width:100%;
     height:25%;
     position:relative;
-    background-color: rgb(119, 180, 5);
+    background-image: url("/image/tiles.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat; 
     font-family: 'PT Serif';
     color:white;
 }
 .container .topBar .name{
     position: relative;
-    top:10px;
+    top:8px;
     margin-left:23%;
 }
 .container .topBar span span img{
@@ -30,13 +33,13 @@ html, body{
 .topBar .h6{
     font-size:25px;
     position: relative;
-    bottom:14%;
+    bottom:19%;
     margin-left:23%;
 }
 .topBar #h6{
     font-size:20px;
     position: relative;
-    bottom:33%;
+    bottom:39%;
     margin-left:23%;
 }
 .container .innercontainer{
@@ -45,8 +48,13 @@ html, body{
     left:15%;
     position:relative;
 }
-
+.contents .socials img{
+    width:30px;
+    height:30px;
+    padding:10px;
+}
 .contents .skills h3,
+.contents .socials h3,
 .contents .career h3,
 .contents .Education h3,
 .contents .Hobbies h3,
@@ -55,6 +63,7 @@ html, body{
     position:relative;
     margin-right:1%;
 }
+.contents .socials,
 .contents .skills,
 .contents .career,
 .contents .Education,
@@ -71,25 +80,35 @@ html, body{
     font-size:20px;
 }
 .contents .Job p a{
-    color:rgb(119, 180, 5);
+    color:purple;
     text-decoration: none;
 }
 .container .footer{
-    background-color: rgb(119, 180, 5);
+    background-image: url("/image/tiles.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat; 
     width:100%;
-    height:18%;
+    height:19%;
     color:white;
 }
 .container .footer p{
     position:relative;
-    top:15px;
+    top:10px;
      font-size:20px;
     text-align:center; 
 }
 .container .footer .img1{
+    position:relative;
+    bottom:6px;
     margin-left:44%;
+    background-color: white;
 }
 .container .footer .img2{
     margin-left:43%;
     height:35px;
+    background-color: white;
+}
+@media (min-width:250px) and (max-width:299px){
+    
 }
