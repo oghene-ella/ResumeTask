@@ -7,6 +7,7 @@ html, body{
     height: 100%;
     width: 100%;
     position:relative;
+    display:inline-block;
 }
 .container .topBar{
     width:100%;
@@ -111,30 +112,90 @@ html, body{
 }
 
 /* Media query */
-@media (min-width:836px) and (max-width:1082px){
+@media (min-width:1008px) and (max-width:1024px){
+    .container .topBar span span {
+    font-size: 30px;
+    position: relative;
+    top:5%;
+    }
     .container .topBar span span img{
         width:3%;
          position: relative;
-         top:4%;
+         top:1%;
    }
    .topBar .h6{
        font-size:25px;
        position: relative;
-       bottom:20%;
+       bottom:18%;
        margin-left:23%;
        
    }
    .topBar #h6{
-       font-size:20px;
-       bottom:51%;
+       font-size:18px;
+       bottom:35%;
    }
+   .container .footer{
+    width:100%;
+    height:19%;
+}
+   .container .footer p{
+    position:relative;
+    top:15px;
+     font-size:25px;
+    text-align:center; 
+}
+    .container .footer .img1{
+        position:relative;
+        top:10px;
+        margin-left:42%;
+    }
+    .container .footer .img2{
+        margin-left:-16%;
+        position:relative;
+        top:60px;
+    }
+}
+@media (min-width:990px) and (max-width:1006px){
+    .container .topBar .name{
+        position: relative;
+        top:8px;
+        margin-left:23%;
+    }
+    .container .topBar span span img{
+         width:2%;
+         filter: invert(100%);
+          position: relative;
+          top:3%;
+    }
+    .topBar .h6{
+        font-size:25px;
+        position: relative;
+        bottom:19%;
+        margin-left:23%;
+    }
+    .topBar #h6{
+        font-size:20px;
+        position: relative;
+        bottom:39%;
+        margin-left:23%;
+    }
+    .container .footer{
+        width:100%;
+        height:20%;
+    }
+    .container .footer p{
+        position:relative;
+        top:10px;
+         font-size:15px;
+    }
     .container .footer .img1{
         position:relative;
         bottom:6px;
-        margin-left:22%;
+        margin-left:44%;
     }
     .container .footer .img2{
-        margin-left:18%;
+        margin-left:43%;
+        height:35px;
     }
 }
 
@@ -428,39 +489,6 @@ html, body{
         margin-left:24%;
         bottom:7px;
         position:relative;
-    }
-}
-@media (min-width:250px) and (max-width:282px){
-    .container .topBar span span img{
-        width:5%;
-         position: relative;
-         top:1%;
-   }
-   .topBar .h6{
-       font-size:20px;
-       position: relative;
-       bottom:19%;
-       margin-left:23%;
-   }
-   .topBar #h6{
-       font-size:18px;
-   }
-   .contents .skills h3,
-    .contents .socials h3,
-    .contents .career h3,
-    .contents .Education h3,
-    .contents .Hobbies h3,
-    .contents .Job h3{
-    font-size:20px;
-    }
-    .container .footer .img1{
-        position:relative;
-        bottom:6px;
-        margin-left:22%;
-    }
-    .container .footer .img2{
-        margin-left:18%;
-        height:35px;
     }
 }
 @media (min-width:250px) and (max-width:282px){
