@@ -73,10 +73,19 @@ html, body{
     margin-left:13%;
     font-family: 'PT Serif';
 }
+.contents .skills li::before,
+.contents .Hobbies li::before {
+    content: "\2022";
+    color: purple;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 1em;
+}
 .contents .skills li,
 .contents .Hobbies li{
-    list-style-type: none;
-}d
+    list-style-type: none
+}
 .contents .Education h4{
     font-size:20px;
 }
