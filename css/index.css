@@ -109,6 +109,390 @@ html, body{
     height:35px;
     background-color: white;
 }
-@media (min-width:250px) and (max-width:299px){
 
+/* Media query */
+@media (min-width:836px) and (max-width:1082px){
+    .container .topBar span span img{
+        width:3%;
+         position: relative;
+         top:4%;
+   }
+   .topBar .h6{
+       font-size:25px;
+       position: relative;
+       bottom:20%;
+       margin-left:23%;
+       
+   }
+   .topBar #h6{
+       font-size:20px;
+       bottom:51%;
+   }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+    }
+}
+
+@media (min-width:780px) and (max-width:816px){
+    .container .topBar span span img{
+        width:2%;
+         position: relative;
+         top:-0.5%;
+   }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+    }
+}
+
+@media (min-width:725px) and (max-width:780px){
+    .container .topBar span span img{
+        width:2%;
+         position: relative;
+         top:0%;
+   }
+    .container .footer .img1{
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+    }
+}
+@media (min-width:663px) and (max-width:708px){
+    .container .topBar span span img{
+        width:3%;
+         position: relative;
+         bottom:2%;
+   }
+    .container .footer .img1{
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+    }
+}
+@media (min-width:620px) and (max-width:660px){
+    .container .topBar span span img{
+        width:3%;
+         position: relative;
+         bottom:2%;
+   }
+    .container .footer .img1{
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+    }
+}
+@media (min-width:580px) and (max-width:619px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:4%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:10%;
+       margin-left:23%;
+       
+   }
+   .topBar #h6{
+       font-size:14px;
+       bottom:21%;
+   }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+    }
+}
+@media (min-width:520px) and (max-width:579px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:4%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:10%;
+       margin-left:23%;
+       
+   }
+   .topBar #h6{
+       font-size:14px;
+       bottom:21%;
+   }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:36%;
+    }
+    .container .footer .img2{
+        margin-left:34%;
+    }
+}
+@media (min-width:480px) and (max-width:519px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:4%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:10%;
+       margin-left:23%;
+       
+   }
+   .topBar #h6{
+       font-size:14px;
+       bottom:21%;
+   }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:34%;
+    }
+    .container .footer .img2{
+        margin-left:32%;
+    }
+}
+@media (min-width:421px) and (max-width:463px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:4%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:10%;
+       margin-left:23%;
+       
+   }
+   .topBar #h6{
+       font-size:14px;
+       bottom:21%;
+   }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+    }
+}
+@media (min-width:400px) and (max-width:420px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:4%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:8%;
+       margin-left:23%;
+       
+   }
+   .topBar #h6{
+       font-size:18px;
+       bottom:21%;
+   }
+   .contents .skills h3,
+    .contents .socials h3,
+    .contents .career h3,
+    .contents .Education h3,
+    .contents .Hobbies h3,
+    .contents .Job h3{
+    font-size:20px;
+    }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:33%;
+    }
+    .container .footer .img2{
+        margin-left:30%;
+        height:35px;
+    }
+}
+@media (min-width:370px) and (max-width:399px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:4%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:8%;
+       margin-left:23%;
+       
+   }
+   .topBar #h6{
+       font-size:18px;
+       bottom:21%;
+   }
+   .contents .skills h3,
+    .contents .socials h3,
+    .contents .career h3,
+    .contents .Education h3,
+    .contents .Hobbies h3,
+    .contents .Job h3{
+    font-size:20px;
+    }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:33%;
+    }
+    .container .footer .img2{
+        margin-left:30%;
+        height:35px;
+    }
+}
+@media (min-width:321px) and (max-width:369px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:1%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:19%;
+       margin-left:23%;
+   }
+   .topBar #h6{
+       font-size:18px;
+   }
+   .contents .skills h3,
+    .contents .socials h3,
+    .contents .career h3,
+    .contents .Education h3,
+    .contents .Hobbies h3,
+    .contents .Job h3{
+    font-size:20px;
+    }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:29%;
+    }
+    .container .footer .img2{
+        margin-left:27%;
+    }
+}
+@media (min-width:282px) and (max-width:320px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         bottom:2%;
+   }
+   .topBar .h6{
+    font-size:20px;
+    position: relative;
+    bottom:19%;
+    margin-left:23%;
+    }
+    .topBar #h6{
+        font-size:18px;
+    }
+    .container .footer p{
+        bottom:7px;
+        position:relative;
+        font-size:18px;
+    }
+    .container .footer .img1{
+        margin-left:27%;
+        bottom:7px;
+        position:relative;
+    }
+    .container .footer .img2{
+        margin-left:24%;
+        bottom:7px;
+        position:relative;
+    }
+}
+@media (min-width:250px) and (max-width:282px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:1%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:19%;
+       margin-left:23%;
+   }
+   .topBar #h6{
+       font-size:18px;
+   }
+   .contents .skills h3,
+    .contents .socials h3,
+    .contents .career h3,
+    .contents .Education h3,
+    .contents .Hobbies h3,
+    .contents .Job h3{
+    font-size:20px;
+    }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+        height:35px;
+    }
+}
+@media (min-width:250px) and (max-width:282px){
+    .container .topBar span span img{
+        width:5%;
+         position: relative;
+         top:1%;
+   }
+   .topBar .h6{
+       font-size:20px;
+       position: relative;
+       bottom:19%;
+       margin-left:23%;
+   }
+   .topBar #h6{
+       font-size:18px;
+   }
+   .contents .skills h3,
+    .contents .socials h3,
+    .contents .career h3,
+    .contents .Education h3,
+    .contents .Hobbies h3,
+    .contents .Job h3{
+    font-size:20px;
+    }
+    .container .footer .img1{
+        position:relative;
+        bottom:6px;
+        margin-left:22%;
+    }
+    .container .footer .img2{
+        margin-left:18%;
+        height:35px;
+    }
 }
