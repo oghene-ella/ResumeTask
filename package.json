@@ -1,0 +1,23 @@
+{
+  "name": "FrontendTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/local.css -o public/global.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oghene-ella/ResumeTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oghene-ella/ResumeTask/issues"
+  },
+  "homepage": "https://github.com/oghene-ella/ResumeTask#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
